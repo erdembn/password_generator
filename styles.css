@@ -1,0 +1,97 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #1C1C1C;
+    font-family: 'Inter', sans-serif;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    text-align: left;
+    border: none;
+    background: #1F2937;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+   
+}
+#gtitle{    
+font-style: normal;
+font-weight: 800;
+font-size: 2rem;
+margin-bottom: 0.5rem;
+
+}
+
+#makegreen{
+    color: #4ADF86;
+    display: block;
+}
+
+#subt{
+    margin-bottom: 2rem;
+  
+}
+
+#button{
+
+justify-content: center;
+align-items: center;
+padding: px 17px 9px 15px;
+width: 223px;
+height: 42px;
+left: 52px;
+top: 287px;
+background: #10B981;
+border: none;
+border-radius: 10px;
+margin-top: 1rem;
+font-weight: 500;
+font-size: 16px;
+color: white;
+
+
+}
+
+#break{
+    border: 1px solid #2f3e53;
+}
+#thunder{
+    left: -30px;
+    bottom: 0;
+    height: 25px;
+    width: 50px;
+    position: relative;
+    text-align: left;
+    
+}
+
+input{
+border-radius: 10px;
+width: 150px;
+height: 30px;}
+
+#result{
+    word-break: break-all;
+    overflow-wrap: break-word; 
+    width: 100%;
+    
+}
+
+.example{
+    margin: 10px 0;
+    font-size: 0.9rem;
+
+    
+}
+
